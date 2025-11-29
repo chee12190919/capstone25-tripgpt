@@ -1,4 +1,5 @@
 from django.db import models
+<<<<<<< HEAD
 from django.contrib.auth.models import AbstractUser
 import uuid
 
@@ -53,3 +54,5 @@ class TripScore(models.Model):
     
     # calculated_at은 auto_now_add=True를 쓰면 생성 시 자동 기록됨
     calculated_at = models.DateTimeField(auto_now_add=True)
+=======
+>>>>>>> 75ac218cd9e5a365fa51ccf5bc9278a26e53f8ae
