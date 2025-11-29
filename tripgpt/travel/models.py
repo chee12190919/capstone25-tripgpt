@@ -51,5 +51,5 @@ class TripScore(models.Model):
     weather_impact = models.DecimalField(max_digits=4, decimal_places=2, null=True, blank=True)
     traffic_impact = models.DecimalField(max_digits=4, decimal_places=2, null=True, blank=True)
     
-    # calculated_at은 auto_now_add=True를 쓰면 생성 시 자동 기록됨
+    # calculated_at은 auto_now_add=True를 쓰면 생성 시 자동 기록
     calculated_at = models.DateTimeField(auto_now_add=True)
